@@ -34,21 +34,21 @@
     <tr>
       <td align="center" valign="middle">
         <a href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
-          <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png" style="margin: 0 auto;width:400px" /></a>
+          <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png" style="margin: 0 auto;width:450px" /></a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://github.com/yaonphy/Job-Hunt/blob/master/README.md" target="_blank">
-          <img src="https://6a6f-job-hunt-bvzy1-1259590017.tcb.qcloud.la/adForGithub/jobhunt-javaguide400.png" style="margin: 0 auto;width:400px" /></a>
-      </td>     
+        <a href="https://mp.weixin.qq.com/s/uXgGt66Df3JC4GM7d0LlZg" target="_blank">
+          <img src="https://imgkr.cn-bj.ufileos.com/75fef802-16f0-4e0b-9d6f-a9173f24a40f.png" style="margin: 0 auto;width:450px" /></a>
+      </td>        
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <a href="https://mp.weixin.qq.com/s/uXgGt66Df3JC4GM7d0LlZg" target="_blank">
-          <img src="https://imgkr.cn-bj.ufileos.com/75fef802-16f0-4e0b-9d6f-a9173f24a40f.png" style="margin: 0 auto;width:400px" /></a>
-      </td>     
-    </tr>    
+        <a href="https://faxian.lagou.com/discover/05a25f7c41404735b01b7f2a61bcf833.html?ver=2&utm_campaign=gongzhonghaolyw&utm_medium=javaguidegithub&utm_source=weixinlyw">
+          <img src="./media/sponsor/lagou.jpeg" style="margin: 0 auto;width:450px" /></a>    
+    </tr>
   </tbody>
 </table>
+
 
 
 ## 目录
@@ -137,12 +137,12 @@
 1. **[Java 并发基础常见面试题总结](docs/java/Multithread/JavaConcurrencyBasicsCommonInterviewQuestionsSummary.md)**
 2. **[Java 并发进阶常见面试题总结](docs/java/Multithread/JavaConcurrencyAdvancedCommonInterviewQuestions.md)**
 
-**必备知识点：**
+**面试常问知识点：**
 
 1. [并发容器总结](docs/java/Multithread/并发容器总结.md)
 2. **线程池**：[Java线程池学习总结](./docs/java/Multithread/java线程池学习总结.md)、[拿来即用的线程池最佳实践](./docs/java/Multithread/best-practice-of-threadpool.md)
 3. [乐观锁与悲观锁](docs/essential-content-for-interview/面试必备之乐观锁与悲观锁.md)
-4. [万字图文深度解析ThreadLocal](docs/java/Multithread/ThreadLocal.md)
+4. [万字图文深度解析 ThreadLocal](docs/java/Multithread/ThreadLocal.md)
 5. [JUC 中的 Atomic 原子类总结](docs/java/Multithread/Atomic.md)
 6. [AQS 原理以及 AQS 同步组件总结](docs/java/Multithread/AQS.md)
 
@@ -221,12 +221,8 @@
 
 * [Redis 常见问题总结](docs/database/Redis/redis-all.md)
 * **Redis 系列文章合集：**
-  1. [5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)
-  2. [跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)
-  3. [分布式锁深入探究](docs/database/Redis/redis-collection/Redis(3)——分布式锁深入探究.md) 、 [Redlock分布式锁](docs/database/Redis/Redlock分布式锁.md) 、[如何做可靠的分布式锁，Redlock真的可行么](docs/database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md)
-  4. [神奇的HyperLoglog解决统计问题](docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题.md)
-  5. [亿级数据过滤和布隆过滤器](docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器.md)
-  6. [GeoHash查找附近的人](docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人.md)
+  1. 数据结构和算法 ：[5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)、[跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)、[神奇的HyperLoglog解决统计问题](docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题.md)、[亿级数据过滤和布隆过滤器](docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器.md)、[GeoHash查找附近的人](docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人.md)
+  3. Redis锁：[分布式锁深入探究](docs/database/Redis/redis-collection/Redis(3)——分布式锁深入探究.md) 、 [Redlock分布式锁](docs/database/Redis/Redlock分布式锁.md) 、[如何做可靠的分布式锁，Redlock真的可行么](docs/database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md)
   7. [持久化](docs/database/Redis/redis-collection/Redis(7)——持久化.md)
   8. [发布订阅与Stream](docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream.md)
   9. [史上最强【集群】入门实践教程](docs/database/Redis/redis-collection/Redis(9)——集群入门实践教程.md)
