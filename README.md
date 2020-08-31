@@ -8,10 +8,9 @@
 >
 > 另外，希望大家对面试不要抱有侥幸的心理，打铁还需自身硬！  我希望这个文档是为你学习  Java 指明方向，而不是用来应付面试用的。加油！奥利给！
 
-**开始阅读之前必看** ：
+**开始阅读之前必看** ：[完结撒花！JavaGuide面试突击版来啦！](./docs/javaguide面试突击版.md) 。
 
-1. [完结撒花！JavaGuide面试突击版来啦！](./docs/javaguide面试突击版.md)
-2. [JavaGuide重大更新记录](./docs/update-history.md)
+
 
 <p align="center">
 <a href="https://github.com/Snailclimb/JavaGuide" target="_blank">
@@ -34,17 +33,18 @@
     <tr>
       <td align="center" valign="middle">
         <a href="https://mp.weixin.qq.com/s/li9_YXNVxan6Qgt3Q9FYqA">
-          <img src="https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/WechatIMG1.png" style="margin: 0 auto;width:450px" /></a>
+          <img src="./media/sponsor/wangyi.png" style="margin: 0 auto;width:450px" /></a>
       </td>
       <td align="center" valign="middle">
-        <a href="https://mp.weixin.qq.com/s/uXgGt66Df3JC4GM7d0LlZg" target="_blank">
-          <img src="https://imgkr.cn-bj.ufileos.com/75fef802-16f0-4e0b-9d6f-a9173f24a40f.png" style="margin: 0 auto;width:450px" /></a>
+        <a href="https://faxian.lagou.com/discover/05a25f7c41404735b01b7f2a61bcf833.html?ver=2&utm_campaign=gongzhonghaolyw&utm_medium=koushuang&utm_source=weixinlyw">
+          <img src="./media/sponsor/lagou-new.jpeg" style="margin: 0 auto;width:450px" /></a>   
       </td>        
     </tr>
     <tr>
       <td align="center" valign="middle">
-        <a href="https://faxian.lagou.com/discover/05a25f7c41404735b01b7f2a61bcf833.html?ver=2&utm_campaign=gongzhonghaolyw&utm_medium=javaguidegithub&utm_source=weixinlyw">
-          <img src="./media/sponsor/lagou.jpeg" style="margin: 0 auto;width:450px" /></a>    
+        <a href="https://t.1yb.co/3tWM">
+          <img src="./media/sponsor/xiangxue.png" style="margin: 0 auto;width:450px" /></a>
+      </td>       
     </tr>
   </tbody>
 </table>
@@ -76,7 +76,7 @@
         - [MyBatis](#mybatis)
     - [认证授权(JWT、SSO)](#认证授权)
     - [分布式](#分布式)
-        - [Elasticsearch(分布式搜索引擎)](#elasticsearch分布式搜索引擎)
+        - [分布式搜索引擎](#分布式搜索引擎)
         - [RPC](#rpc)
         - [消息队列](#消息队列)
         - [API 网关](#api-网关)
@@ -117,6 +117,7 @@
 1. [枚举](docs/java/basic/用好Java中的枚举真的没有那么简单.md) （很重要的一个数据结构，用好枚举真的没有那么简单！）
 2. [Java 常见关键字总结：final、static、this、super!](docs/java/basic/final,static,this,super.md)
 3. [什么是反射机制?反射机制的应用场景有哪些?](docs/java/basic/reflection.md)
+4. [代理模式详解：静态代理+JDK/CGLIB 动态代理实战（动态代理和静态代理的区别？JDK动态代理 和 CGLIB 动态代理的区别？）](docs/java/basic/java-proxy.md)
 
 **其他：**
 
@@ -219,6 +220,7 @@
 
 ### Redis
 
+* [关于缓存的一些重要概念(Redis前置菜)](docs/database/Redis/some-concepts-of-caching.md)
 * [Redis 常见问题总结](docs/database/Redis/redis-all.md)
 * **Redis 系列文章合集：**
   1. 数据结构和算法 ：[5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)、[跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)、[神奇的HyperLoglog解决统计问题](docs/database/Redis/redis-collection/Reids(4)——神奇的HyperLoglog解决统计问题.md)、[亿级数据过滤和布隆过滤器](docs/database/Redis/redis-collection/Redis(5)——亿级数据过滤和布隆过滤器.md)、[GeoHash查找附近的人](docs/database/Redis/redis-collection/Redis(6)——GeoHash查找附近的人.md)
@@ -252,6 +254,11 @@
 
 - [MyBatis常见面试题总结](docs/system-design/framework/mybatis/mybatis-interview.md)
 
+#### Netty
+
+1. [剖析面试最常见问题之 Netty（上）](https://xiaozhuanlan.com/topic/4028536971)
+2. [剖析面试最常见问题之 Netty（下）](https://xiaozhuanlan.com/topic/3985146207)
+
 ### 认证授权
 
 **[认证授权基础:搞清Authentication,Authorization以及Cookie、Session、Token、OAuth 2、SSO](docs/system-design/authority-certification/basis-of-authority-certification.md)**
@@ -269,11 +276,13 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 [分布式相关概念入门](docs/system-design/website-architecture/分布式.md)
 
-#### Elasticsearch(分布式搜索引擎)
+#### 分布式搜索引擎
 
 提高搜索效率。常见于电商购物网站的商品搜索于分类。
 
-代办......
+比较常用的是 Elasticsearch 和 Solr。
+
+代办。
 
 #### RPC
 
@@ -284,7 +293,7 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 #### 消息队列
 
-消息队列在分布式系统中主要是为了接耦和削峰。相关阅读： **[消息队列总结](docs/system-design/data-communication/message-queue.md)** 。
+消息队列在分布式系统中主要是为了解耦和削峰。相关阅读： **[消息队列总结](docs/system-design/data-communication/message-queue.md)** 。
 
 **RabbitMQ:**
 
@@ -322,9 +331,9 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 > 前两篇文章可能有内容重合部分，推荐都看一遍。
 
-1. [【入门】ZooKeeper 相关概念总结](docs/system-design/framework/ZooKeeper.md)
-2. [【进阶】Zookeeper 原理简单入门！](docs/system-design/framework/ZooKeeper-plus.md)
-3. [【拓展】ZooKeeper 数据模型和常见命令](docs/system-design/framework/ZooKeeper数据模型和常见命令.md)
+1. [【入门】ZooKeeper 相关概念总结 01](docs/system-design/framework/zookeeper/zookeeper-intro.md)
+2. [【进阶】ZooKeeper 相关概念总结 02](docs/system-design/framework/zookeeper/zookeeper-plus.md)
+3. [【实战】ZooKeeper 实战](docs/system-design/framework/zookeeper/zookeeper-in-action.md)
 
 #### 其他
 
@@ -391,8 +400,7 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 1. [Java学习路线和方法推荐](docs/questions/java-learning-path-and-methods.md)
 2. [Java培训四个月能学会吗？](docs/questions/java-training-4-month.md)
 3. [新手学习Java，有哪些Java相关的博客，专栏，和技术学习网站推荐？](docs/questions/java-learning-website-blog.md)
-4. [Java 还是大数据，你需要了解这些东西！](docs/questions/java-big-data)
-5. [Java 后台开发/大数据？你需要了解这些东西！](https://articles.zsxq.com/id_wto1iwd5g72o.html)（知识星球）
+4. [Java 还是大数据，你需要了解这些东西！](docs/questions/java-big-data.md)
 
 ## 资源
 
@@ -446,9 +454,11 @@ Logo下的小图标是使用[Shields.IO](https://shields.io/) 生成的。
 2. 很多知识点我可能没有涉及到，所以你可以对其他知识点进行补充。
 3. 现有的知识点难免存在不完善或者错误，所以你可以对已有知识点进行修改/补充。
 
+> 如果要提 issue/question 的话，强烈推荐阅读 [《提问的智慧》](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)、[《如何向开源社区提问题》](https://github.com/seajs/seajs/issues/545) 和 [《如何有效地报告 Bug》](http://www.chiark.greenend.org.uk/~sgtatham/bugs-cn.html)、[《如何向开源项目提交无法解答的问题》](https://zhuanlan.zhihu.com/p/25795393)。
+
 ### 联系我
 
-![个人微信](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-7/wechat3.jpeg)
+![个人微信](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/wechat3.jpeg)
 
 ### Contributor
 
@@ -513,6 +523,6 @@ Logo下的小图标是使用[Shields.IO](https://shields.io/) 生成的。
 
 **Java工程师必备学习资源:** 一些Java工程师常用学习资源公众号后台回复关键字 **“1”** 即可免费无套路获取。 
 
-![我的公众号](https://my-blog-to-use.oss-cn-beijing.aliyuncs.com/2019-6/167598cd2e17b8ec.png)
+![我的公众号](https://cdn.jsdelivr.net/gh/javaguide-tech/blog-images/2020-08/167598cd2e17b8ec.png)
 
 
